@@ -63,7 +63,7 @@ app.use(express.json());
 // };
 
 // // Call the async function to start everything up
-// startApolloServer(typeDefs, resolvers);
+// startApolloServer();
 
 //can probably get rid of the following?
 // if we're in production, serve client/build as static assets

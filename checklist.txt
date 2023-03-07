@@ -1,21 +1,29 @@
-1. Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API.
+Study the application before building upon it you're converting it from RESTful API practices to a GraphQL API.
 
-2. Modify the existing authentication middleware so that it works in the context of a GraphQL API.
+1. Set up an Apollo Server to use GraphQL queries and mutations to fetch and modify data, replacing the existing RESTful API. (server.js: Implement the Apollo Server and apply it to the Express server as middleware.)
+   
+    To implement Apollo Server 2 as demonstrated in the activities, you MUST use the following script npm install apollo-server-express@2.15.0 to install Apollo Server 2.
+
+
+
+2. auth.js: Modify the existing authentication middleware so that it works in the context of a GraphQL API.
+
+
 
 3. Create an Apollo Provider so that requests can communicate with an Apollo Server.
+
+
 
 4. Deploy your application to Heroku with a MongoDB database using MongoDB Atlas. Use the [Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) walkthrough for instructions.
 
 
 
 
-study the application before building upon it you're converting it from RESTful API practices to a GraphQL API.
 
-auth.js: Update the auth middleware function to work with the GraphQL API.
 
-STARTED server.js: Implement the Apollo Server and apply it to the Express server as middleware.
 
-    To implement Apollo Server 2 as demonstrated in the activities, you MUST use the following script npm install apollo-server-express@2.15.0 to install Apollo Server 2.
+
+
 
 Schemas directory:
 Use the functionality in the user-controller.js as a guide.
